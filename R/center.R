@@ -8,7 +8,7 @@
 #' @param desired The numeric midpoint value around which the data will be centered.
 #'
 #' @return A new vector containing the original data centered around the desired values
-#'
+#' @export
 #' @examples
 #'   center(c(1,2,3), 0) # should return [1] -1  0  1
 #'   center(c(1,2,3), 1) # should return [1] 0 1 2
