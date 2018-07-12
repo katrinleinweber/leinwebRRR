@@ -1,7 +1,7 @@
 Package: leinwebRRR
 Type: Package
 Title: For FAIR Workshop
-Version: 0.1.0
+Version: 0.1.0.9000
 Date: 2018-07-12
 Authors@R: person("Luke", "Johnston", 
     email = "lwjohnst@gmail.com",
