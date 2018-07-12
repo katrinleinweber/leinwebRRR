@@ -2,9 +2,11 @@ Package: leinwebRRR
 Type: Package
 Title: For FAIR Workshop
 Version: 0.1.0
-Author: person("Luke", "Johnston", 
+Date: 2018-07-12
+Authors@R: person("Luke", "Johnston", 
     email = "lwjohnst@gmail.com",
-    role = c("aut", "cre"))
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0000-0000-0000"))
 Description: Personal package.
 License: MIT + file LICENSE
 Encoding: UTF-8
