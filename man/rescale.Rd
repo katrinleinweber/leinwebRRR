@@ -4,18 +4,22 @@
 \alias{rescale}
 \title{Rescaling Datasets}
 \usage{
-rescale(v)
+rescale(v, lower = 0, upper = 1)
 }
 \arguments{
 \item{v}{A numeric vector}
+
+\item{lower}{Numeric value of lower rescaling bound (default: 0)}
+
+\item{upper}{Numeric value of upper rescaling bound (default: 1)}
 }
 \value{
-A new numeric vector of the same length, but rescaled from the input vector to the range of 0 to 1
+A new numeric vector of the same length, but rescaled from the input vector to the range specified by `lower` and `upper` (default: 0 to 1)
 }
 \description{
 Rescaling Datasets
 }
 \examples{
-  rescale(c(1,2,3)) # should return [1] 0.0 0.5 1.0
+  rescale(c(1,2,3), 1, 2) # should return [1] 1.0 1.5 2.0
   rescale(c(1,2,3,4,5)) # should return [1] 0.00 0.25 0.50 0.75 1.00
 }
