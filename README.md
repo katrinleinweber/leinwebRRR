@@ -2,6 +2,7 @@
 
 [![Travis build status](https://travis-ci.org/katrinleinweber/leinwebRRR.svg?branch=master)](https://travis-ci.org/katrinleinweber/leinwebRRR)
 [![Coverage status](https://codecov.io/gh/katrinleinweber/leinwebRRR/branch/master/graph/badge.svg)](https://codecov.io/github/katrinleinweber/leinwebRRR?branch=master)
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 The goal of leinwebRRR is to ...
 
