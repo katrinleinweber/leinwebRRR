@@ -1,6 +1,6 @@
 #' Rescaling Datasets
 #'
-#' @param v A numeric vector
+#' @param vector A numeric vector
 #' @param lower Numeric value of lower rescaling bound (default: 0)
 #' @param upper Numeric value of upper rescaling bound (default: 1)
 #'
@@ -9,9 +9,8 @@
 #' @examples
 #'   rescale(c(1,2,3), 1, 2) # should return [1] 1.0 1.5 2.0
 #'   rescale(c(1,2,3,4,5)) # should return [1] 0.00 0.25 0.50 0.75 1.00
-rescale <- function(v, lower = 0, upper = 1) {
-  L <- min(v)
-  H <- max(v)
-  result <- (v - L) / (H - L) * (upper - lower) + lower
-  return(result)
+
+rescale <- function(vector, lower = 0, upper = 1) {
+  L <- min(vector)
+  (vector - L) / (max(vector) - L) * (upper - lower) + lower
 }
