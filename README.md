@@ -1,5 +1,8 @@
 # leinwebRRR
 
+[![Travis build status](https://travis-ci.org/katrinleinweber/leinwebRRR.svg?branch=master)](https://travis-ci.org/katrinleinweber/leinwebRRR)
+[![Coverage status](https://codecov.io/gh/katrinleinweber/leinwebRRR/branch/master/graph/badge.svg)](https://codecov.io/github/katrinleinweber/leinwebRRR?branch=master)
+
 The goal of leinwebRRR is to ...
 
 ## Installation
